@@ -1,7 +1,7 @@
 const enviar = document.querySelector('#enviar');
+const inputCEP = document.getElementById('cep');
 
-
-enviar.addEventListener('click', event => {
+inputCEP.addEventListener('focusout', event => {
     event.preventDefault();
 
     const inputCEP = document.getElementById('cep');
