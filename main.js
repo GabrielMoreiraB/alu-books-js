@@ -1,3 +1,5 @@
+/* tentativa de fazer sozinho, porem faltou utilizar focusout ao invez de click no addeventlist*/ 
+
 const enviar = document.querySelector('#enviar');
 const inputCEP = document.getElementById('cep');
 
